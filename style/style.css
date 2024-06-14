@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/*reset basico*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    text-align:right;
+    background-color: rgb(62, 58, 58);
+    padding: 20px 0;
+    border-bottom: 3px solid #000000;
+
+}
+/*estilo para logotipo*/
+.logotipo{
+   vertical-align: middle;
+   max-width: 130px;
+   margin-top: -1.8%;
+   float: inline-start;
+}
+
+/*estilo para os items do menu*/
+.menu-item{
+    display: inline-block;
+    margin: 0 20px;
+    color: #e5d2d2;
+    
+}
+.menu-item,a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+}
+.menu-item:hover{
+    color: rgb(227, 39, 39);
+}
+.menu-item,a{
+    color: rgb(232, 226, 226);
+}
